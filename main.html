@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- API Key 53462b78c1cdbc763f566ef7b48a784d -->
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <i class="ri-map-pin-line"></i>
+            <input type="text" placeholder="Enter city name" id="city-input">
+            <button id="search-btn"><i class="ri-search-line"></i></button>
+        </div>
+
+        <div class="not-found">
+            <p>Oops! Invalid Location</p>
+        </div> 
+
+        <div class="weather-box">
+            <img src="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="ri-drop-line"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="windy">
+                <i class="ri-windy-line"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
