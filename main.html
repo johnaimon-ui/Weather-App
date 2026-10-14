@@ -14,18 +14,18 @@
 </head>
 <body>
     <div class="container">
-        <div class="search">
+        <form class="search">
             <i class="ri-map-pin-line"></i>
-            <input type="text" placeholder="Enter city name" id="city-input">
-            <button id="search-btn"><i class="ri-search-line"></i></button>
-        </div>
+            <input type="text" placeholder="Enter city name" id="city-input" autocomplete="off">
+            <button id="search-btn" type="submit"><i class="ri-search-line"></i></button>
+        </form>
 
         <div class="not-found">
             <p>Oops! Invalid Location</p>
         </div> 
 
         <div class="weather-box">
-            <img src="">
+            <img src="" alt="Weather condition">
             <p class="temperature"></p>
             <p class="description"></p>
         </div>
